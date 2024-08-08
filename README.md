@@ -1,3 +1,27 @@
+What Should I Eat?
+
+Overview
+What Should I Eat? is a web application that helps users find recipes based on their search queries. The app fetches recipes from the Edamam API and displays them dynamically on the page.
+
+Features
+Dynamic Recipe Search: Type in the search bar to find recipes.
+API Integration: Uses Edamam API to fetch recipes.
+Responsive Design: Works on all devices.
+Technologies Used
+HTML5: For structuring the content.
+CSS3: For styling the application.
+JavaScript: For dynamic functionality and API interactions.
+Edamam API: For fetching recipe data.
+Installation
+Clone the repository:
+bash
+Kodu kopyala
+git clone https://github.com/baturayaginli/What-Should-I-Eat.git
+Navigate to the project directory:
+bash
+Kodu kopyala
+cd What-Should-I-Eat
+Open index.html in your preferred web browser.
 Usage
 Type a keyword into the search bar.
 Wait for the recipes to load.
