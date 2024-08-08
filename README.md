@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
         window.open(`https://www.google.com/search?q=${encodeURIComponent(query)} recipe`, '_blank');
     };
 });
-
+````
 ## Contributing
 
 Contributions are welcome! Please fork this repository and open a pull request to add new features or fix bugs.
@@ -105,4 +105,5 @@ Contributions are welcome! Please fork this repository and open a pull request t
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 
