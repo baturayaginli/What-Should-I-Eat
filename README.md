@@ -1,45 +1,60 @@
-What Should I Eat?
+# What Should I Eat?
 
-Overview
-What Should I Eat? is a web application that helps users find recipes based on their search queries. The app fetches recipes from the Edamam API and displays them dynamically on the page.
+![Project Logo](link-to-your-logo.png)
 
-Features
-Dynamic Recipe Search: Type in the search bar to find recipes.
-API Integration: Uses Edamam API to fetch recipes.
-Responsive Design: Works on all devices.
-Technologies Used
-HTML5: For structuring the content.
-CSS3: For styling the application.
-JavaScript: For dynamic functionality and API interactions.
-Edamam API: For fetching recipe data.
-Installation
-Clone the repository:
-bash
-Kodu kopyala
-git clone https://github.com/baturayaginli/What-Should-I-Eat.git
-Navigate to the project directory:
-bash
-Kodu kopyala
-cd What-Should-I-Eat
-Open index.html in your preferred web browser.
-Usage
-Type a keyword into the search bar.
-Wait for the recipes to load.
-Click on a recipe to see more details or search it on Google.
-Code Explanation
-HTML (index.html)
-Sets up the structure of the web page.
-Includes a search input and a container for displaying recipes.
-CSS (styles.css)
-Styles the layout and design of the web page.
-Provides responsive design adjustments.
-JavaScript (script.js)
-Adds event listeners for user interactions.
-Fetches and displays recipes from the Edamam API.
-Provides a function to search recipes on Google.
-Example Code Snippet
-javascript
-Kodu kopyala
+## Overview
+
+**What Should I Eat?** is a web application that helps users find recipes based on their search queries. The app fetches recipes from the Edamam API and displays them dynamically on the page.
+
+## Features
+
+- **Dynamic Recipe Search**: Type in the search bar to find recipes.
+- **API Integration**: Uses Edamam API to fetch recipes.
+- **Responsive Design**: Works on all devices.
+
+## Technologies Used
+
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling the application.
+- **JavaScript**: For dynamic functionality and API interactions.
+- **Edamam API**: For fetching recipe data.
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/baturayaginli/What-Should-I-Eat.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd What-Should-I-Eat
+    ```
+3. Open `index.html` in your preferred web browser.
+
+## Usage
+
+1. Type a keyword into the search bar.
+2. Wait for the recipes to load.
+3. Click on a recipe to see more details or search it on Google.
+
+## Code Explanation
+
+### HTML (`index.html`)
+- Sets up the structure of the web page.
+- Includes a search input and a container for displaying recipes.
+
+### CSS (`styles.css`)
+- Styles the layout and design of the web page.
+- Provides responsive design adjustments.
+
+### JavaScript (`script.js`)
+- Adds event listeners for user interactions.
+- Fetches and displays recipes from the Edamam API.
+- Provides a function to search recipes on Google.
+
+### Example Code Snippet
+
+```javascript
 document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
     const recipeContainer = document.getElementById('recipeContainer');
@@ -82,8 +97,3 @@ document.addEventListener('DOMContentLoaded', () => {
         window.open(`https://www.google.com/search?q=${encodeURIComponent(query)} recipe`, '_blank');
     };
 });
-Contributing
-Contributions are welcome! Please fork this repository and open a pull request to add new features or fix bugs.
-
-License
-This project is licensed under the MIT License.
