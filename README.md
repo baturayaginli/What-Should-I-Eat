@@ -98,8 +98,11 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 });
 
-Contributing
+## Contributing
+
 Contributions are welcome! Please fork this repository and open a pull request to add new features or fix bugs.
 
-License
-This project is licensed under the MIT License.
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
