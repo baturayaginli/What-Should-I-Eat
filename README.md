@@ -1,6 +1,6 @@
-![image](https://github.com/user-attachments/assets/ffb34c09-9941-411d-953e-227c8e3d99a3)# What Should I Eat?
+# What Should I Eat?
 
-![Project Logo](link-to-your-logo.png)
+![Project Logo](logo.png)
 
 ## Overview
 
@@ -97,3 +97,9 @@ document.addEventListener('DOMContentLoaded', () => {
         window.open(`https://www.google.com/search?q=${encodeURIComponent(query)} recipe`, '_blank');
     };
 });
+
+Contributing
+Contributions are welcome! Please fork this repository and open a pull request to add new features or fix bugs.
+
+License
+This project is licensed under the MIT License.
