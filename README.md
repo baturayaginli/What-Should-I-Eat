@@ -1,4 +1,4 @@
-# What Should I Eat?
+![image](https://github.com/user-attachments/assets/ffb34c09-9941-411d-953e-227c8e3d99a3)# What Should I Eat?
 
 ![Project Logo](link-to-your-logo.png)
 
